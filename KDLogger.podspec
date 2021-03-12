@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'KDLogger/Classes/**/*'
+  s.source_files = 'KDLogger/**/*'
   
   # s.resource_bundles = {
   #   'KDLogger' => ['KDLogger/Assets/*.png']
