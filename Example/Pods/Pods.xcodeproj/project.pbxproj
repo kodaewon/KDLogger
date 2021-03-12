@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D523A081AEBB228C8B88F60D0DE6E5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		2CDA34B1DA01105707BD7BBCC972B0F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		65F019D427E722B110AE515F0F3FEF46 /* Pods-KDLogger_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77140362AE5504B094224AB12B0414A8 /* Pods-KDLogger_Tests-dummy.m */; };
+		67F845D272BC5ECC5E427C90023F900E /* Pods-KDLogger_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 37EC7589A720BA19B09D800F89418570 /* Pods-KDLogger_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A898D6B25FB0912006B2DFE /* KDLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A898D6A25FB0912006B2DFE /* KDLogger.swift */; };
+		71D06939B4E15CC63CADE5D610BCA1D6 /* KDLogger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AACD1078223F8C0526517B0A574E6F2 /* KDLogger-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE9956B26D426AAD6C2ED14CCF50275D /* Pods-KDLogger_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F72976B137F784F91BC6CECC999713E /* Pods-KDLogger_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8205C76B323BA4DA4E58A3F228399FC /* KDLogger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDC33AD9FCB4F660E95A04EB991536A /* KDLogger-dummy.m */; };
+		EFCFA08055136571E1E8B3D6D5877DF8 /* Pods-KDLogger_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0BC7C0822D4C3024B2C034B1844D5A /* Pods-KDLogger_Example-dummy.m */; };
+		F62208DD12000179D2541951DE8B4799 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E9AC4B279B0F97B8F0BB7B3BE1A1F54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5F2E2871B7BE89A1F0C659601651A87;
+			remoteInfo = "Pods-KDLogger_Example";
+		};
+		CB952C5A6AADF068F85D5F4DE38D5B59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C48C1BA9A4524EAF6684755E3F71EFAD;
+			remoteInfo = KDLogger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07B3BA2A81CE1F0787C8B93EC556DA3A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		0A1CEBFFBBBDD6C44B5E6AB72459A6D2 /* Pods-KDLogger_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KDLogger_Example-frameworks.sh"; sourceTree = "<group>"; };
+		235C0C8D43B95155B34A60FF1B199D71 /* KDLogger.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = KDLogger.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		271EFAD72F47C521CF0A4FC9368E3821 /* Pods-KDLogger_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KDLogger_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2B6FBF943BD3F5F8852D6E5C42C086AA /* Pods-KDLogger_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KDLogger_Tests.modulemap"; sourceTree = "<group>"; };
+		3249C1037D507F4075EA18C44650F5B6 /* KDLogger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KDLogger.modulemap; sourceTree = "<group>"; };
+		37EC7589A720BA19B09D800F89418570 /* Pods-KDLogger_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KDLogger_Tests-umbrella.h"; sourceTree = "<group>"; };
+		39E6A5C789FEF5B9BA83F837ADEF2632 /* Pods-KDLogger_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KDLogger_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3C0BC7C0822D4C3024B2C034B1844D5A /* Pods-KDLogger_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KDLogger_Example-dummy.m"; sourceTree = "<group>"; };
+		3D09E272EBDBF9455713E54E651CAAC8 /* Pods-KDLogger_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KDLogger_Example.modulemap"; sourceTree = "<group>"; };
+		45184CF00040018C8291D241047333F3 /* Pods_KDLogger_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KDLogger_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F72976B137F784F91BC6CECC999713E /* Pods-KDLogger_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KDLogger_Example-umbrella.h"; sourceTree = "<group>"; };
+		56C4CFDEEC3721BE986CE8189DE884B3 /* Pods-KDLogger_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KDLogger_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5C5B770047F46CF94E305B5FC46EE0CB /* Pods-KDLogger_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KDLogger_Tests-Info.plist"; sourceTree = "<group>"; };
+		6A898D6A25FB0912006B2DFE /* KDLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KDLogger.swift; sourceTree = "<group>"; };
+		6BC8076A09F7EEE0B083E119BFD1BA1F /* KDLogger-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KDLogger-Info.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		77140362AE5504B094224AB12B0414A8 /* Pods-KDLogger_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KDLogger_Tests-dummy.m"; sourceTree = "<group>"; };
+		7A7003B0E76130E7307FBA81C2C6C4BE /* KDLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KDLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DFCC41DC34F79511C0B124859B506AD /* Pods-KDLogger_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KDLogger_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		809E1DF1D4A0D465284739B7FD0BE515 /* KDLogger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KDLogger.release.xcconfig; sourceTree = "<group>"; };
+		9296654D5E217BB1F2464615D44F8383 /* Pods_KDLogger_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KDLogger_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AACD1078223F8C0526517B0A574E6F2 /* KDLogger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KDLogger-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B612CC8B5CC1ED32FB09334B4C47121F /* KDLogger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KDLogger.debug.xcconfig; sourceTree = "<group>"; };
+		CC13A928AB77BAAC2A8079C234699526 /* Pods-KDLogger_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KDLogger_Example.release.xcconfig"; sourceTree = "<group>"; };
+		DD27D47A3370D8186AAB4E849EE1CEE7 /* Pods-KDLogger_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KDLogger_Example-Info.plist"; sourceTree = "<group>"; };
+		E4FB39FDAD60D2F7740F5982F095EC10 /* Pods-KDLogger_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KDLogger_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E7D12D271709BC5BC0820B47FB0DDE98 /* KDLogger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KDLogger-prefix.pch"; sourceTree = "<group>"; };
+		EC192E745E2DAD628E59319FE17EA6D3 /* Pods-KDLogger_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KDLogger_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FAC9DF5DAC97E67E7CFAC31B8835780A /* Pods-KDLogger_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KDLogger_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FF1C6A563F874DA0CDA8F28F4793EBC9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FFDC33AD9FCB4F660E95A04EB991536A /* KDLogger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KDLogger-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		372302668B1BA8E3040BA42D9E9640F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D523A081AEBB228C8B88F60D0DE6E5F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62F4E2CCC8BA4DD6A61BCA3EEBC7C505 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F62208DD12000179D2541951DE8B4799 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91B6B0671EBA262EBB1C9DAE5C684E68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CDA34B1DA01105707BD7BBCC972B0F6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1469A73688D721575968AB22353BF9CD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3249C1037D507F4075EA18C44650F5B6 /* KDLogger.modulemap */,
+				FFDC33AD9FCB4F660E95A04EB991536A /* KDLogger-dummy.m */,
+				6BC8076A09F7EEE0B083E119BFD1BA1F /* KDLogger-Info.plist */,
+				E7D12D271709BC5BC0820B47FB0DDE98 /* KDLogger-prefix.pch */,
+				9AACD1078223F8C0526517B0A574E6F2 /* KDLogger-umbrella.h */,
+				B612CC8B5CC1ED32FB09334B4C47121F /* KDLogger.debug.xcconfig */,
+				809E1DF1D4A0D465284739B7FD0BE515 /* KDLogger.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KDLogger";
+			sourceTree = "<group>";
+		};
+		395D93C042923A0DC629F109C35E09FC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A413F3851B3997C3C7C15373F311886A /* KDLogger */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3BBF6FA9298C4EFE524BA09D96942E33 /* Pods-KDLogger_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2B6FBF943BD3F5F8852D6E5C42C086AA /* Pods-KDLogger_Tests.modulemap */,
+				EC192E745E2DAD628E59319FE17EA6D3 /* Pods-KDLogger_Tests-acknowledgements.markdown */,
+				39E6A5C789FEF5B9BA83F837ADEF2632 /* Pods-KDLogger_Tests-acknowledgements.plist */,
+				77140362AE5504B094224AB12B0414A8 /* Pods-KDLogger_Tests-dummy.m */,
+				5C5B770047F46CF94E305B5FC46EE0CB /* Pods-KDLogger_Tests-Info.plist */,
+				37EC7589A720BA19B09D800F89418570 /* Pods-KDLogger_Tests-umbrella.h */,
+				7DFCC41DC34F79511C0B124859B506AD /* Pods-KDLogger_Tests.debug.xcconfig */,
+				271EFAD72F47C521CF0A4FC9368E3821 /* Pods-KDLogger_Tests.release.xcconfig */,
+			);
+			name = "Pods-KDLogger_Tests";
+			path = "Target Support Files/Pods-KDLogger_Tests";
+			sourceTree = "<group>";
+		};
+		42ED5765A9783D971A43AAC8931E9267 /* Pods-KDLogger_Example */ = {
+			isa = PBXGroup;
+			children = (
+				3D09E272EBDBF9455713E54E651CAAC8 /* Pods-KDLogger_Example.modulemap */,
+				FAC9DF5DAC97E67E7CFAC31B8835780A /* Pods-KDLogger_Example-acknowledgements.markdown */,
+				E4FB39FDAD60D2F7740F5982F095EC10 /* Pods-KDLogger_Example-acknowledgements.plist */,
+				3C0BC7C0822D4C3024B2C034B1844D5A /* Pods-KDLogger_Example-dummy.m */,
+				0A1CEBFFBBBDD6C44B5E6AB72459A6D2 /* Pods-KDLogger_Example-frameworks.sh */,
+				DD27D47A3370D8186AAB4E849EE1CEE7 /* Pods-KDLogger_Example-Info.plist */,
+				4F72976B137F784F91BC6CECC999713E /* Pods-KDLogger_Example-umbrella.h */,
+				56C4CFDEEC3721BE986CE8189DE884B3 /* Pods-KDLogger_Example.debug.xcconfig */,
+				CC13A928AB77BAAC2A8079C234699526 /* Pods-KDLogger_Example.release.xcconfig */,
+			);
+			name = "Pods-KDLogger_Example";
+			path = "Target Support Files/Pods-KDLogger_Example";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		910C4115C88900632DF6F94BBDFE83C4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				42ED5765A9783D971A43AAC8931E9267 /* Pods-KDLogger_Example */,
+				3BBF6FA9298C4EFE524BA09D96942E33 /* Pods-KDLogger_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A413F3851B3997C3C7C15373F311886A /* KDLogger */ = {
+			isa = PBXGroup;
+			children = (
+				6A898D6A25FB0912006B2DFE /* KDLogger.swift */,
+				BDD59205100AAB19B07F3BF4335FCE41 /* Pod */,
+				1469A73688D721575968AB22353BF9CD /* Support Files */,
+			);
+			name = KDLogger;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BDB5B58DE4436DB50A4280DE15142C3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A7003B0E76130E7307FBA81C2C6C4BE /* KDLogger.framework */,
+				9296654D5E217BB1F2464615D44F8383 /* Pods_KDLogger_Example.framework */,
+				45184CF00040018C8291D241047333F3 /* Pods_KDLogger_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDD59205100AAB19B07F3BF4335FCE41 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				235C0C8D43B95155B34A60FF1B199D71 /* KDLogger.podspec */,
+				07B3BA2A81CE1F0787C8B93EC556DA3A /* LICENSE */,
+				FF1C6A563F874DA0CDA8F28F4793EBC9 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				395D93C042923A0DC629F109C35E09FC /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				BDB5B58DE4436DB50A4280DE15142C3E /* Products */,
+				910C4115C88900632DF6F94BBDFE83C4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		786B75AEC1FF9F2A3686E7C7F6172B21 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE9956B26D426AAD6C2ED14CCF50275D /* Pods-KDLogger_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE22BFBCA57F21A9174F34915934E78E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71D06939B4E15CC63CADE5D610BCA1D6 /* KDLogger-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C31F790C1A630C50853616E2F9A5D509 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67F845D272BC5ECC5E427C90023F900E /* Pods-KDLogger_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2908472D7B45A8098F08E84A979B7FCC /* Pods-KDLogger_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31F1574B86754BEA528A1177A75F0DA8 /* Build configuration list for PBXNativeTarget "Pods-KDLogger_Tests" */;
+			buildPhases = (
+				C31F790C1A630C50853616E2F9A5D509 /* Headers */,
+				35F7503CF6593AF4843C7A464892BB24 /* Sources */,
+				91B6B0671EBA262EBB1C9DAE5C684E68 /* Frameworks */,
+				A820018190501A2D9595A35850C505C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9AA27E27552782E1A2CE2BCBC8DE1C4 /* PBXTargetDependency */,
+			);
+			name = "Pods-KDLogger_Tests";
+			productName = "Pods-KDLogger_Tests";
+			productReference = 45184CF00040018C8291D241047333F3 /* Pods_KDLogger_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A5F2E2871B7BE89A1F0C659601651A87 /* Pods-KDLogger_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8035F54D44BC2D34A62DC8E5544618A4 /* Build configuration list for PBXNativeTarget "Pods-KDLogger_Example" */;
+			buildPhases = (
+				786B75AEC1FF9F2A3686E7C7F6172B21 /* Headers */,
+				7AA38835F13F0CBBB4E5A3D82FBF8538 /* Sources */,
+				62F4E2CCC8BA4DD6A61BCA3EEBC7C505 /* Frameworks */,
+				105857457A030AB64B34B0E014083978 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E117F7145D99A75658E6C3C65B7D5EA9 /* PBXTargetDependency */,
+			);
+			name = "Pods-KDLogger_Example";
+			productName = "Pods-KDLogger_Example";
+			productReference = 9296654D5E217BB1F2464615D44F8383 /* Pods_KDLogger_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C48C1BA9A4524EAF6684755E3F71EFAD /* KDLogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF18973022BFBEE7FCD6FBCBB8A70FC1 /* Build configuration list for PBXNativeTarget "KDLogger" */;
+			buildPhases = (
+				AE22BFBCA57F21A9174F34915934E78E /* Headers */,
+				4173243766421229CAA60C72DDF9E762 /* Sources */,
+				372302668B1BA8E3040BA42D9E9640F1 /* Frameworks */,
+				A18829D094B51080D6CC5B8DDD27E24F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KDLogger;
+			productName = KDLogger;
+			productReference = 7A7003B0E76130E7307FBA81C2C6C4BE /* KDLogger.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = BDB5B58DE4436DB50A4280DE15142C3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C48C1BA9A4524EAF6684755E3F71EFAD /* KDLogger */,
+				A5F2E2871B7BE89A1F0C659601651A87 /* Pods-KDLogger_Example */,
+				2908472D7B45A8098F08E84A979B7FCC /* Pods-KDLogger_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		105857457A030AB64B34B0E014083978 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A18829D094B51080D6CC5B8DDD27E24F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A820018190501A2D9595A35850C505C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35F7503CF6593AF4843C7A464892BB24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65F019D427E722B110AE515F0F3FEF46 /* Pods-KDLogger_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4173243766421229CAA60C72DDF9E762 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A898D6B25FB0912006B2DFE /* KDLogger.swift in Sources */,
+				D8205C76B323BA4DA4E58A3F228399FC /* KDLogger-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AA38835F13F0CBBB4E5A3D82FBF8538 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFCFA08055136571E1E8B3D6D5877DF8 /* Pods-KDLogger_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9AA27E27552782E1A2CE2BCBC8DE1C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-KDLogger_Example";
+			target = A5F2E2871B7BE89A1F0C659601651A87 /* Pods-KDLogger_Example */;
+			targetProxy = 6E9AC4B279B0F97B8F0BB7B3BE1A1F54 /* PBXContainerItemProxy */;
+		};
+		E117F7145D99A75658E6C3C65B7D5EA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KDLogger;
+			target = C48C1BA9A4524EAF6684755E3F71EFAD /* KDLogger */;
+			targetProxy = CB952C5A6AADF068F85D5F4DE38D5B59 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		061304FE60D25387041D4B740757A914 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56C4CFDEEC3721BE986CE8189DE884B3 /* Pods-KDLogger_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KDLogger_Example/Pods-KDLogger_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KDLogger_Example/Pods-KDLogger_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		71F411C35A51EEA01B9A4F096A198BAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC13A928AB77BAAC2A8079C234699526 /* Pods-KDLogger_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KDLogger_Example/Pods-KDLogger_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KDLogger_Example/Pods-KDLogger_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		71FB15A336ACE5C0E83227F66943D33F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B612CC8B5CC1ED32FB09334B4C47121F /* KDLogger.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KDLogger/KDLogger-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KDLogger/KDLogger-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KDLogger/KDLogger.modulemap";
+				PRODUCT_MODULE_NAME = KDLogger;
+				PRODUCT_NAME = KDLogger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7827185D0251CE5ABD5F70230B6A452B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 809E1DF1D4A0D465284739B7FD0BE515 /* KDLogger.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KDLogger/KDLogger-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KDLogger/KDLogger-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KDLogger/KDLogger.modulemap";
+				PRODUCT_MODULE_NAME = KDLogger;
+				PRODUCT_NAME = KDLogger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7A6F68BC1C9FF32DD1D76EA1AFD1CF09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DFCC41DC34F79511C0B124859B506AD /* Pods-KDLogger_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KDLogger_Tests/Pods-KDLogger_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KDLogger_Tests/Pods-KDLogger_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7B2BA9EC4BA39CD7FAFC72A573AF59C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 271EFAD72F47C521CF0A4FC9368E3821 /* Pods-KDLogger_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KDLogger_Tests/Pods-KDLogger_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KDLogger_Tests/Pods-KDLogger_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31F1574B86754BEA528A1177A75F0DA8 /* Build configuration list for PBXNativeTarget "Pods-KDLogger_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A6F68BC1C9FF32DD1D76EA1AFD1CF09 /* Debug */,
+				7B2BA9EC4BA39CD7FAFC72A573AF59C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8035F54D44BC2D34A62DC8E5544618A4 /* Build configuration list for PBXNativeTarget "Pods-KDLogger_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				061304FE60D25387041D4B740757A914 /* Debug */,
+				71F411C35A51EEA01B9A4F096A198BAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF18973022BFBEE7FCD6FBCBB8A70FC1 /* Build configuration list for PBXNativeTarget "KDLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71FB15A336ACE5C0E83227F66943D33F /* Debug */,
+				7827185D0251CE5ABD5F70230B6A452B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

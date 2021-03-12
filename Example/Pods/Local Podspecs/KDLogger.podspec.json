@@ -1,0 +1,22 @@
+{
+  "name": "KDLogger",
+  "version": "0.1.0",
+  "summary": "A short description of KDLogger.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/yreak33@gmail.com/KDLogger",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yreak33@gmail.com": "kd@sweettracker.co.kr"
+  },
+  "source": {
+    "git": "https://github.com/yreak33@gmail.com/KDLogger.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "KDLogger/Classes/**/*"
+}

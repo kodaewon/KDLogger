@@ -1,0 +1,16 @@
+PODS:
+  - KDLogger (0.1.0)
+
+DEPENDENCIES:
+  - KDLogger (from `../`)
+
+EXTERNAL SOURCES:
+  KDLogger:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KDLogger: d3319c97d20d43ff6a8fd7b63c85d1007e9c2121
+
+PODFILE CHECKSUM: eb12eccb86487ba28a955182ad03fa36612e66a1
+
+COCOAPODS: 1.10.1
